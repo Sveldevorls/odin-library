@@ -1,11 +1,11 @@
 const newBookDialog = document.body.querySelector("dialog")
 const newBookDialogAdd = document.body.querySelector("#newbook-add")
-const newBookDialogClose = document.body.querySelector("#newbook-close")
+const newBookDialogCancel = document.body.querySelector("#newbook-cancel")
 
 newBookDialogAdd.addEventListener("click", () => {
     newBookDialog.showModal();
 })
 
-newBookDialogClose.addEventListener("click", () => {
+newBookDialogCancel.addEventListener("click", () => {
     newBookDialog.close();
 })
