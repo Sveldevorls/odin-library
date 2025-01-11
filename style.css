@@ -1,0 +1,40 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body {
+    background-color: rgb(37, 40, 40);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    min-height: 100vh;
+}
+
+.header {
+    padding: 0 1em;
+    color: whitesmoke;
+    height: 15vh;
+    background-color: rgb(68, 81, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > h1 {
+    font-weight: 500;
+    margin-right: auto;
+}
+
+button {
+    width: 10em;
+    height: 2lh;
+    border-radius: 0.75lh;
+    border: none;
+    background-color:#a3abbd; 
+}
+
+dialog {
+    margin: auto auto;
+}
