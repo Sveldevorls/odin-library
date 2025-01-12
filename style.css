@@ -67,3 +67,50 @@ form {
 input[type=text], input[type=number] {
     width: 40ch;
 }
+
+.display {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25ch, 1fr));
+    gap: 1em;
+}
+
+.card {
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10lh;
+    background-color: whitesmoke;
+    border-radius: 1lh;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.read {
+    margin-top: 0.5lh
+}
+
+p.yes {
+    color: green;
+}
+
+p.no {
+    color: crimson;
+}
+
+button.read {
+    margin-top: auto;
+    margin-bottom: 0.5lh;
+}
+
+button.no {
+    background-color: crimson;
+}
+
+button.yes {
+    background-color: green;
+}
